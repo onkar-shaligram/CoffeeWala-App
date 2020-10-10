@@ -97,7 +97,7 @@ class _SignInState extends State<SignIn> {
                         height: 20.0,
                       ),
                       RaisedButton(
-                        child: Text("Sign in"),
+                        child: Text("Validate"),
                         onPressed: () async {
                           if (_formKey.currentState.validate()) {
                             setState(() {
