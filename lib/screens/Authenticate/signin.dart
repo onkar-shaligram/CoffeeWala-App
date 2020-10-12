@@ -1,6 +1,7 @@
 import 'package:coffeewala_app/screens/services/auth.dart';
 import 'package:coffeewala_app/shared/loading.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class SignIn extends StatefulWidget {
   final Function toggleView;
@@ -60,6 +61,10 @@ class _SignInState extends State<SignIn> {
                         height: 20.0,
                       ),
                       TextFormField(
+                        keyboardType: TextInputType.number,
+                        inputFormatters: <TextInputFormatter>[
+                            FilteringTextInputFormatter.allow(RegExp(r'[0-9]')),
+                          ],
                         validator: (val) =>
                             val.isEmpty ? 'Enter an email' : null,
                         onChanged: (val) {
