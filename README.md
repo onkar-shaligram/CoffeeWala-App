@@ -17,7 +17,7 @@ Developing a Web application that could Show how much ammount of Coffee Sales ha
 
 In the command terminal, run the following commands:
 
-    $ git clone //TODO
+    $ git clone https://github.com/onkar-shaligram/CoffeeWala_app.git
     $ flutter run
 
 # Simulate for iOS
