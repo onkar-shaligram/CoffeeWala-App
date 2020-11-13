@@ -6,6 +6,12 @@ To improve the Customer experience in Coffee Shops by Effectively transfering th
 # Connected Apps
 This App is a Customer Side application connected to Client side at https://github.com/onkar-shaligram/CoffeeWala_admin
 
+# Stacks Used
+- Programming Language : **Dart**
+- Framework : **Flutter**
+- Authentication : **Google Firebase**
+- Database : **Cloud Firestore**
+
 # Future Additions/Improvements
 Developing a Web application that could Show how much ammount of Coffee Sales happened, Increase/Decrease from Last month, what all Coffee Raw materials to Buy, etc.
 
